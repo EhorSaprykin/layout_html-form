@@ -68,9 +68,55 @@
         <input type="password" id="password"
         name="password">
       </form>
+    </fieldset>
 
-      
+    <fieldset name="facts" id="facts">
+      <legend>An interesting fact about you!</legend>
 
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" name="pets"
+      method="post">
+        <label for="pets">Do you love cats?</label>
+
+        <input type="radio" name="yes"
+        id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="no"
+        id="no">
+        <label for="no">No</label>
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+      name="color">
+        <label for="color">What is your favorite color?</label>
+        <input type="color" name="color"
+        id="color">
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+      name="bed-time">
+        <label for="bed-time">What time do you go to bed?</label>
+        <input type="time" name="bed-time"
+        id="bed-time">
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+      name="car">
+        <label for="car">What are your favorite brand of cars?</label>
+        <select name="car" id="car"
+        multiple>
+          <option value="BMW">BMW</option>
+          <option value="Audi">Audi</option>
+          <option value="Lada">Lada</option>
+        </select>
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+      name="work-rate">
+        <label for="work-rate">What is your favorite color?</label>
+        <input type="range" name="work-rate"
+        id="work-rate" min="1"
+        max="10">
+      </form>
     </fieldset>
 
   </body>

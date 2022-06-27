@@ -10,13 +10,9 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
-    <script type="text/javascript" src="./main.js"></script>
-
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    name="surname"
-    method="post"
-    required>
+    onsubmit="onSubmit()"
+    method="post">
 
       <fieldset name="personal-information"
       id="personal-information">
@@ -26,14 +22,18 @@
           <label for="surname">Surname:</label>
           <input type="text"
           id="surname"
-          name="surname">
+          name="surname"
+          required
+          autocomplete="off">
         </div>
 
         <div class="name">
           <label for="name">Name:</label>
           <input type="text"
           id="name"
-          name="name">
+          name="name"
+          required
+          autocomplete="off">
         </div>
 
         <div class="age">
@@ -43,21 +43,24 @@
           name="age"
           min="1"
           max="99"
-          value="12">
+          value="12"
+          required>
         </div>
 
         <div class="birth-date">
           <label for="birth-date">Full date of birth:</label>
           <input type="date"
           id="birth-date"
-          name="birth-date">
+          name="birth-date"
+          required>
         </div>
 
         <div class="term-accept">
           <label for="term-accept">I accept the term of the agreement</label>
           <input type="checkbox"
           id="term-accept"
-          name="term-accept">
+          name="term-accept"
+          required>
         </div>
       </fieldset>
 
@@ -68,14 +71,18 @@
           <label for="e-mail">E-mail:</label>
           <input type="email"
           id="e-mail"
-          name="e-mail">
+          name="e-mail"
+          autocomplete="off">
         </div>
 
         <div class="password">
           <label for="password">Password:</label>
           <input type="password"
           id="password"
-          name="password">
+          name="password"
+          minlength="3"
+          maxlength="36"
+          autocomplete="off">
         </div>
       </fieldset>
 
@@ -137,7 +144,8 @@
           <textarea name="comment"
           id="comment"
           cols="30"
-          rows="2"></textarea>
+          rows="2"
+          autocomplete="off"></textarea>
         </div>
 
         <div class="recommend">
@@ -154,5 +162,6 @@
       value="Submit">
     </form>
 
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>

@@ -1,11 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    >
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
@@ -13,5 +12,46 @@
   <body>
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
+
+    <fieldset name="personal-information" id="personal-information">
+      <legend>Personal information</legend>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" name="surname"
+      method="post" required>
+        <label for="surname">Surname</label>
+        <input type="text" id="surname"
+        name="surname">
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+      required>
+        <label for="name">Name</label>
+        <input type="text" id="name"
+        name="name">
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+      required>
+        <label for="age">How old are You?</label>
+        <input type="number" id="age"
+        name="age" min="1"
+        max="99" value="12">
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+        <label for="birth-date">Full date of birth</label>
+        <input type="date" id="birth-date"
+        name="birth-date">
+      </form>
+
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post"
+      required>
+        <label for="term-accept">I accept the term of the agreement</label>
+        <input type="checkbox" id="term-accept"
+        name="term-accept">
+      </form>
+    </fieldset>
+
+
   </body>
 </html>

@@ -1,7 +1,11 @@
-fieldset {
+.input_area {
   margin-bottom: 20px;
 }
 
-div {
+.input_field {
   margin-bottom: 10px;
+}
+
+.input_area .input_field:last-child {
+  margin: 0;
 }

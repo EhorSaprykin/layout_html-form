@@ -4,7 +4,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document-0.png",
-        "test": "../bitmaps_test/20220627-124357/Entire_document-0.png",
+        "test": "../bitmaps_test/20220704-110746/Entire_document-0.png",
         "selector": "document",
         "fileName": "Entire_document-0.png",
         "label": "Entire document",
@@ -20,17 +20,16 @@
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "6.10",
-          "analysisTime": 40
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Entire_document-0.png"
+          "misMatchPercentage": "0.02",
+          "analysisTime": 30
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Form-0.png",
-        "test": "../bitmaps_test/20220627-124357/Form-0.png",
+        "test": "../bitmaps_test/20220704-110746/Form-0.png",
         "selector": "form",
         "fileName": "Form-0.png",
         "label": "Form",
@@ -41,22 +40,21 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -40
+            "height": 0
           },
-          "misMatchPercentage": "6.44",
-          "analysisTime": 39
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Form-0.png"
+          "misMatchPercentage": "0.02",
+          "analysisTime": 30
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-0.png",
-        "test": "../bitmaps_test/20220627-124357/Fieldset_tag-0.png",
+        "test": "../bitmaps_test/20220704-110746/Fieldset_tag-0.png",
         "selector": "fieldset",
         "fileName": "Fieldset_tag-0.png",
         "label": "Fieldset tag",
@@ -67,22 +65,20 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -10
+            "height": 0
           },
-          "misMatchPercentage": "1.09",
-          "analysisTime": 38
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Fieldset_tag-0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-1.png",
-        "test": "../bitmaps_test/20220627-124357/Fieldset_tag-1.png",
+        "test": "../bitmaps_test/20220704-110746/Fieldset_tag-1.png",
         "selector": "fieldset.__n1",
         "fileName": "Fieldset_tag-1.png",
         "label": "Fieldset tag",
@@ -93,22 +89,20 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -10
+            "height": 0
           },
-          "misMatchPercentage": "2.65",
-          "analysisTime": 33
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Fieldset_tag-1.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-2.png",
-        "test": "../bitmaps_test/20220627-124357/Fieldset_tag-2.png",
+        "test": "../bitmaps_test/20220704-110746/Fieldset_tag-2.png",
         "selector": "fieldset.__n2",
         "fileName": "Fieldset_tag-2.png",
         "label": "Fieldset tag",
@@ -119,22 +113,21 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -10
+            "height": 0
           },
-          "misMatchPercentage": "1.57",
-          "analysisTime": 41
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Fieldset_tag-2.png"
+          "misMatchPercentage": "0.02",
+          "analysisTime": 22
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-3.png",
-        "test": "../bitmaps_test/20220627-124357/Fieldset_tag-3.png",
+        "test": "../bitmaps_test/20220704-110746/Fieldset_tag-3.png",
         "selector": "fieldset.__n3",
         "fileName": "Fieldset_tag-3.png",
         "label": "Fieldset tag",
@@ -145,22 +138,21 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -10
+            "height": 0
           },
-          "misMatchPercentage": "2.08",
-          "analysisTime": 32
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Fieldset_tag-3.png"
+          "misMatchPercentage": "0.11",
+          "analysisTime": 20
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Submit_button-0.png",
-        "test": "../bitmaps_test/20220627-124357/Submit_button-0.png",
+        "test": "../bitmaps_test/20220704-110746/Submit_button-0.png",
         "selector": "[type=\"submit\"]",
         "fileName": "Submit_button-0.png",
         "label": "Submit button",
@@ -184,7 +176,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Email_with_placeholder-0.png",
-        "test": "../bitmaps_test/20220627-124357/Email_with_placeholder-0.png",
+        "test": "../bitmaps_test/20220704-110746/Email_with_placeholder-0.png",
         "selector": "[type=\"email\"][placeholder]",
         "fileName": "Email_with_placeholder-0.png",
         "label": "Email with placeholder",
@@ -195,22 +187,20 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
-            "width": -210,
-            "height": -247
+            "width": 0,
+            "height": 0
           },
-          "misMatchPercentage": "2.74",
-          "analysisTime": 17
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Email_with_placeholder-0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Number_with_value-0.png",
-        "test": "../bitmaps_test/20220627-124357/Number_with_value-0.png",
+        "test": "../bitmaps_test/20220704-110746/Number_with_value-0.png",
         "selector": "[type=\"number\"][value]",
         "fileName": "Number_with_value-0.png",
         "label": "Number with value",
@@ -221,17 +211,15 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
-            "width": 6,
+            "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "11.03",
-          "analysisTime": 1
-        },
-        "diffImage": "../bitmaps_test/20220627-124357/failed_diff_Number_with_value-0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ]
 }
